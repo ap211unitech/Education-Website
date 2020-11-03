@@ -191,11 +191,11 @@ html {
 .hamburger-menu .search button {
     outline: none;
     border: none;
+    background: none;
     border-radius: 40px;
     font-size: 14px;
     color: white;
     padding: 5px 15px 5px 15px;
-    background: none;
     border: 2px solid white;
     margin-top: 19px;
     cursor: pointer;
@@ -403,8 +403,15 @@ hr {
     .right-nav .search {
         display: none;
     }
-    .hamburger-menu .nav-list {
-        margin-left: 200px;
+    .hamburger-menu .nav-list li a{
+        /* border: 1px solid red; */
+        position: relative;
+        left: -20px;
+        /* text-align: center; */
+        /* width: 100px;
+        text-align: center;*/
+        /* width: 400px;
+        margin: auto;  */
     }
     .hamburger-menu .search {
         display: flex;
