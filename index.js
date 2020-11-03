@@ -3,7 +3,7 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 
 /********************************************** Hamburger Menu **********************************************/
 hamburgar_icon.childNodes[1].addEventListener("click", () => {
-    gsap.to(".hamburger-menu", { y: 330, opacity: 1, ease: "power4", duration: 0.5 })
+    gsap.to(".hamburger-menu", { y: 360, opacity: 1, ease: "power4", duration: 0.5 })
 
 })
 
