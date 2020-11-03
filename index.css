@@ -403,6 +403,9 @@ hr {
     .right-nav .search {
         display: none;
     }
+    .hamburger-menu .nav-list {
+        margin-left: 200px;
+    }
     .hamburger-menu .search {
         display: flex;
     }
