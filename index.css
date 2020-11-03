@@ -276,7 +276,7 @@ html {
 
 /******************************************************** Sections *************************************************/
 
-.f-sect {
+.f-sect, .t-sect {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -291,24 +291,24 @@ html {
     margin: 100px;
 }
 
-.f-sect .data, .s-sect .data {
+.f-sect .data, .s-sect .data, .t-sect .data {
     max-width: 55%;
     margin-right: 60px;
 }
 
-.f-sect .data .heading, .s-sect .data .heading {
+.f-sect .data .heading, .s-sect .data .heading, .t-sect .data .heading {
     font-size: 34px;
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.f-sect .data .main-data, .s-sect .data .main-data {
+.f-sect .data .main-data, .s-sect .data .main-data, .t-sect .data .main-data {
     font-size: 16px;
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.f-sect .img img {
+.f-sect .img img, .t-sect .img img {
     width: 250px;
     height: 200px;
     border-radius: 10px;
@@ -403,15 +403,9 @@ hr {
     .right-nav .search {
         display: none;
     }
-    .hamburger-menu .nav-list li a{
-        /* border: 1px solid red; */
+    .hamburger-menu .nav-list li a {
         position: relative;
         left: -20px;
-        /* text-align: center; */
-        /* width: 100px;
-        text-align: center;*/
-        /* width: 400px;
-        margin: auto;  */
     }
     .hamburger-menu .search {
         display: flex;
