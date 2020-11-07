@@ -17,7 +17,9 @@ document.body.addEventListener("click", (elm) => {
 /*********************************************** Scroll Animation ***********************************************/
 $(document).ready(function () {
     $(".text-big").addClass("animated zoomIn");
+    $(".text-big").css("opacity", 1);
     $(".text-small").addClass("animated fadeInUp");
+
     $(".f-sect").css({ opacity: 0 });
     $(".s-sect").css({ opacity: 0 });
     $(".t-sect").css({ opacity: 0 });
@@ -62,7 +64,6 @@ $(document).ready(function () {
             $(".t-sect .img").addClass("animated slideInRight");
         }
         else {
-            $(".t-sect").css({ opacity: 0 });
             $(".t-sect .data .heading").removeClass("animated slideInDown");
             $(".t-sect .data .main-data").removeClass("animated slideInUp");
             $(".t-sect .img").removeClass("animated slideInRight");

@@ -23,6 +23,7 @@ html {
     color: white;
     position: sticky;
     top: 0;
+    z-index: 99999999;
 }
 
 .left-nav {
@@ -237,11 +238,13 @@ html {
 .background .box-main .f-half .text-big {
     font-size: 42px;
     color: white;
+    opacity: 0;
 }
 
 .background .box-main .f-half .text-small {
     margin-top: -20px;
     color: white;
+    opacity: 0;
 }
 
 .background .box-main .f-half .f-half-btn button {
@@ -349,34 +352,34 @@ hr {
 }
 
 @media screen and (max-width:1064px) {
-    .f-sect, .s-sect {
+    .f-sect, .s-sect, .t-sect {
         flex-direction: column-reverse;
         justify-content: center;
         margin: 30px;
         padding: 10px 100px 10px 100px;
     }
-    .f-sect .img img, .s-sect .img img {
+    .f-sect .img img, .s-sect .img img, .t-sect .img img {
         max-width: 800px;
         margin: auto;
         display: block;
     }
-    .f-sect .data, .s-sect .data {
+    .f-sect .data, .s-sect .data, .t-sect .data {
         max-width: 100%;
         text-align: center;
         display: block;
         margin: auto;
     }
-    .f-sect .heading, .s-sect .heading {
+    .f-sect .heading, .s-sect .heading, .t-sect .heading {
         margin-top: 18px;
     }
-    .f-sect .main-data, .s-sect .main-data {
+    .f-sect .main-data, .s-sect .main-data, .t-sect .main-data {
         min-width: 100%;
         margin: -12px auto auto auto;
     }
 }
 
 @media screen and (max-width:620px) {
-    .f-sect, .s-sect {
+    .f-sect, .s-sect, .t-sect {
         padding: 10px 20px 10px 20px;
     }
 }
