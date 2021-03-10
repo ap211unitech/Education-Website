@@ -31,11 +31,11 @@ $(document).ready(function () {
             $(".f-sect .data .main-data").addClass("animated slideInUp");
             $(".f-sect .img").addClass("animated slideInRight");
         }
-        else {
-            $(".f-sect .data .heading").removeClass("animated slideInDown");
-            $(".f-sect .data .main-data").removeClass("animated slideInUp");
-            $(".f-sect .img").removeClass("animated slideInRight");
-        }
+//         else {
+//             $(".f-sect .data .heading").removeClass("animated slideInDown");
+//             $(".f-sect .data .main-data").removeClass("animated slideInUp");
+//             $(".f-sect .img").removeClass("animated slideInRight");
+//         }
     }, {
         offset: '100%'
     })
@@ -47,11 +47,11 @@ $(document).ready(function () {
             $(".s-sect .data .main-data").addClass("animated slideInUp");
             $(".s-sect .img").addClass("animated slideInLeft");
         }
-        else {
-            $(".s-sect .data .heading").removeClass("animated slideInRight");
-            $(".s-sect .data .main-data").removeClass("animated slideInUp");
-            $(".s-sect .img").removeClass("animated slideInLeft");
-        }
+//         else {
+//             $(".s-sect .data .heading").removeClass("animated slideInRight");
+//             $(".s-sect .data .main-data").removeClass("animated slideInUp");
+//             $(".s-sect .img").removeClass("animated slideInLeft");
+//         }
     }, {
         offset: '100%'
     })
@@ -63,11 +63,11 @@ $(document).ready(function () {
             $(".t-sect .data .main-data").addClass("animated slideInUp");
             $(".t-sect .img").addClass("animated slideInRight");
         }
-        else {
-            $(".t-sect .data .heading").removeClass("animated slideInDown");
-            $(".t-sect .data .main-data").removeClass("animated slideInUp");
-            $(".t-sect .img").removeClass("animated slideInRight");
-        }
+//         else {
+//             $(".t-sect .data .heading").removeClass("animated slideInDown");
+//             $(".t-sect .data .main-data").removeClass("animated slideInUp");
+//             $(".t-sect .img").removeClass("animated slideInRight");
+//         }
     }, {
         offset: '100%'
     })
